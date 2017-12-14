@@ -28,7 +28,7 @@ def main():
     price = price_box.text
     print price  
     time.sleep(20)
-
+ 
     #Text your the information.
 		body = name + ', ' + price + ', ' + str(datetime.now())
 		client . messages.create(
